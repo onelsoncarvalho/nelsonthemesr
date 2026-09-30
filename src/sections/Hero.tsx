@@ -67,7 +67,7 @@ const Hero: React.FC = () => {
               className="shrink-0 max-w-[20px] max-h-[20px]  hover:bg-slate-400 transition duration-200 cursor-pointer rounded-sm"
               onClick={() =>
                 handleClipboardAction(
-                  'remotes::install_github("Nelson-DevStack/nelsonthemes")'
+                  'remotes::install_github("onelsoncarvalho/nelsonthemes")'
                 )
               }
             />
