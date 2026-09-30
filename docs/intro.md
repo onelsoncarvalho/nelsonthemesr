@@ -11,15 +11,15 @@ Let's install `nelsonthemes`.
 ### What you'll need
 
 - R, version 4.4.3
-- ```devtools``` package from R
+- ```remotes``` package from R
 
 ## Install nelsonthemes
 
-We can use the devtool's function ```install_github``` to install nelsonthemes to your current machine.
+We can use the remotes' function ```install_github``` to install nelsonthemes to your current machine.
 
 ```{r}
-library(devtools)
-devtools::install_github("Nelson-DevStack/nelsonthemes")
+library(remotes)
+remotes::install_github("onelsoncarvalho/nelsonthemes")
 ```
 
 You can load the package with `require` or `library`:
